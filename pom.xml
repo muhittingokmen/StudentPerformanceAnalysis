@@ -66,8 +66,10 @@
                 </configuration>
             </plugin>
         </plugins>
-        <resource>
-            <directory>${basedir}/src/main/java</directory>
-        </resource>
+        <resources>
+            <resource>
+                <directory>${basedir}/src/main/java/</directory>
+            </resource>
+        </resources>
     </build>
 </project>
